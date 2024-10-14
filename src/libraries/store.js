@@ -17,6 +17,7 @@
  * See: https://github.com/BrunoSobrino
  */
 const { BufferJSON, proto, isJidBroadcast, WAMessageStubType, updateMessageWithReceipt, updateMessageWithReaction, jidNormalizedUser } = (await import('baileys')).default;
+
 const TIME_TO_DATA_STALE = 5 * 60 * 1000;
 
 function makeInMemoryStore() {
